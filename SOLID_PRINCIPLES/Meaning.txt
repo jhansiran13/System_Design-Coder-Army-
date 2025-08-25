@@ -1,0 +1,16 @@
+When developers work on design without using structured design principles, they can create long-lasting problems for future developers working on the project, and limit the potential success for the application they are developing. These issues are commonly referred to as “code rot.”
+if you want to change your programs during any upgradation of the software, you should avoid the factors that can cause the code rot to happen in the future. Hence, you can make your software up to date and the people can continue to use it for years to come.
+How can we identify future Code Rot?
+Below signs probably indicate code rot to come in the future:
+
+Rigidity 
+Small change causes the entire system to rebuild.
+
+Fragility 
+Changes to one module causes other unrelated modules to misbehave.
+
+Immobility 
+A module’s internal components cannot be extracted and reused in new environments. For example, if an application’s login module cannot be used in entirely different system then this module is immobile, caused by couplings and dependencies between different modules. The strategy is to decouple central abstractions from low-level details, like a particular database schema or UI implementation (web, desktop) or specific frameworks.
+
+Viscosity 
+When building and testing are difficult to perform and take a long time to execute. When even a simple change is costly to make, and requires you to make changes in multiple places/levels.

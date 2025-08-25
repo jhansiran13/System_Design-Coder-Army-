@@ -1,0 +1,9 @@
+
+What is SOLID Principles-The Liskov Substitution Principle?
+Simply put, if class A is a subtype of class B, then we should be able to replace objects of B with objects of A (i.e., objects of type A may substitute objects of type B) without changing the behavior (correctness, functionality, etc.) of our program.
+“Derived types must be completely substitutable for their base types”
+
+In Layman’s terms, it states that an object of a superclass should be replaceable by objects of its subclasses without causing issues in the application. Therefore, a child class should never change the characteristics of its parent class (such as the argument list and return types). Basically, derived classes should never do less than their base class.
+LSP applies to inheritance hierarchies, specifying that you should design your classes so that client dependencies can be substituted with subclasses without the client knowing about the change.
+
+All subclasses must, therefore, operate in the same manner as their base classes. The specific functionality of the subclass may be different, but must conform to the expected behavior of the base class. To be a true behavioral subtype, the subclass must not only implement the base class’s methods and properties, but also stick to its implied behavior.
