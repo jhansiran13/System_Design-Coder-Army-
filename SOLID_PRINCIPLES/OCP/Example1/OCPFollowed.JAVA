@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+public import java.util.ArrayList;
 import java.util.List;
 
 // Product class representing any item in eCommerce.
@@ -93,4 +93,4 @@ public class OCPFollowed {
         mongo.save(cart); // Save to MongoDB
         file.save(cart);  // Save to File
     }
-}
+} 

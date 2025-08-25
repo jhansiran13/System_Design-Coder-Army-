@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+public import java.util.ArrayList;
 import java.util.List;
 
 // Product class representing any item in eCommerce.
@@ -84,4 +84,6 @@ public class OCPViolated {
         ShoppingCartStorage db = new ShoppingCartStorage(cart);
         db.saveToSQLDatabase();
     }
+} {
+    
 }
