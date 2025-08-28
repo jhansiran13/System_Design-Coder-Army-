@@ -1,3 +1,4 @@
+package SOLID_PRINCIPLES.solid.SRP.Example6.StudentReportCard;
 class Student {
     public String name;
     public int[] marks;

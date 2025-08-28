@@ -1,3 +1,4 @@
+package SOLID_PRINCIPLES.solid.SRP.Example1.Followed;
 
 // Product class representing any item in eCommerce.
 import java.util.ArrayList;

@@ -1,3 +1,4 @@
+package SOLID_PRINCIPLES.solid.SRP.Example3.Employee_Payroll_System;
 class Employee {
     public String name;
     public double baseSalary;

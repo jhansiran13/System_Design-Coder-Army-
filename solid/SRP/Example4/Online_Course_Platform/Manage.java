@@ -1,3 +1,4 @@
+package SOLID_PRINCIPLES.solid.SRP.Example4.Online_Course_Platform;
 import java.util.ArrayList;
 import java.util.List;
 class Course {
